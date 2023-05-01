@@ -1,6 +1,16 @@
 # PythonAlarmClock
 ##Alarm Clock with GUI using Python and Tkinter
 
+###Steps to run the project
+
+1. Clone or download the code from your GitHub repository to your local machine.
+2. Ensure that you have Python 3.x installed on your machine. You can download the latest version of Python from the official website at https://www.python.org/downloads/.
+3. Open a command prompt or terminal window and navigate to the project directory.
+4. Install the `playsound` module and any other dependencies using the following command: `pip install -r requirements.txt`
+5. Run the Python script using the following command: `python PythonAlarmClock.py`
+6. The alarm clock GUI window will open. Set the alarm time, select a sound file, and specify the snooze time as required.
+7. Once the alarm time is reached, the selected sound file will start playing. You can snooze the alarm by specifying the snooze time.
+
 ###Abstract:
 
 This project aims to develop an alarm clock with a Graphical User Interface (GUI) using the Python programming language and the Tkinter library. The alarm clock allows the user to set the alarm time, select a sound or music file to play when the alarm goes off, and snooze the alarm for a specified amount of time. The project utilizes the datetime and playsound libraries to play the selected sound or music file when the alarm time is reached. The alarm clock is designed to run in the background while the user works on other tasks and have the ability to play different sounds or music files for each alarm.
